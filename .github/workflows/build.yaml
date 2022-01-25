@@ -1,0 +1,33 @@
+name: Build Docs
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+env:
+  DOC_PATH: windows-app-rs/target/doc
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        override: true
+        components: clippy
+    - run: cargo doc --all-features
+      working-directory: ./windows-app-rs
+    - name: Copy Doc Index Page
+      run: cp .github/pages/index.html ${{ env.DOC_PATH }}
+    - name: Deploy Documentation
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ${{ env.DOC_PATH }}
+        force_orphan: true
