@@ -1,0 +1,3 @@
+[submodule "windows-app-rs"]
+	path = windows-app-rs
+	url = git@github.com:microsoft/windows-app-rs.git
