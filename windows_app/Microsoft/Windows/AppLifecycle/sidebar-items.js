@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ActivationRegistrationManager",""],["AppActivationArguments",""],["AppInstance",""],["ExtendedActivationKind",""]]});

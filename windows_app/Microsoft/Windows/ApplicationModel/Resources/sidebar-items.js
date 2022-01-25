@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["KnownResourceQualifierName",""],["ResourceCandidate",""],["ResourceCandidateKind",""],["ResourceContext",""],["ResourceLoader",""],["ResourceManager",""],["ResourceMap",""],["ResourceNotFoundEventArgs",""]]});

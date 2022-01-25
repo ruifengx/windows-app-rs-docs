@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AddPackageDependencyOptions",""],["CreatePackageDependencyOptions",""],["PackageDependency",""],["PackageDependencyContext",""],["PackageDependencyContextId",""],["PackageDependencyLifetimeArtifactKind",""],["PackageDependencyProcessorArchitectures",""],["PackageDependencyRank",""]]});

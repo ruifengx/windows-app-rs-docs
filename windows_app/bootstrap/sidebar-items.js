@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["initialize","Locates the Windows App SDK framework package compatible with the (currently internal) versioning criteria and loads it into the current process."],["uninitialize","Undo the changes made by `initialize()`."]],"mod":[["deploy",""]]});

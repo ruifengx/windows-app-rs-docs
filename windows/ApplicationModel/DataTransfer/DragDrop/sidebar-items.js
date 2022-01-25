@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["DragDropModifiers","Required features: ‘ApplicationModel_DataTransfer_DragDrop’"]]});

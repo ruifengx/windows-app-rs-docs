@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["to_output_dir","Writes the Windows App Runtime Bootstrap dll to `OUT_DIR`. This is only useful when called from a build script."]]});
